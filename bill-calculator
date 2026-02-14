@@ -9,10 +9,10 @@ public:
         cout << "Enter units: ";
         cin >> units;
 
-        bill = units * 5; // rate = 5 per unit
+        bill = units * 5;
         bill = bill - (bill * 0.02);
 
-        cout << "Final Bill = " << bill;
+        cout << "electricity bill = " << bill;
     }
 };
 
